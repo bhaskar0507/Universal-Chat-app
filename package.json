@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bhaskar0507/Universal-Chat-app/issues"
   },
-  "homepage": "https://github.com/bhaskar0507/Universal-Chat-app#readme"
+  "homepage": "https://github.com/bhaskar0507/Universal-Chat-app#readme",
+  "dependencies": {
+    "socket.io": "^4.4.0"
+  }
 }
