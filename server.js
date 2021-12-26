@@ -1,4 +1,3 @@
-
 const express = require("express");
 const http = require("http");
 const path = require("path");
@@ -12,10 +11,10 @@ const {
   getCurrentUser,
   userLeave,
   getRoomUser,
-} = require("./utils/users");
+} = require("./utils/users.js");
 
 //set static folder
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "front-end")));
 
 const adminName = "Chat App";
 

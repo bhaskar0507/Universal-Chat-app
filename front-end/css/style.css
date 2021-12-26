@@ -14,7 +14,7 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-    background-image: url('813296022908d0d4adaa55a4eaf5207a.gif');
+    background-color: #79a7d3;
 	margin: 20px;
 }
 
@@ -29,20 +29,20 @@ a {
 .btn {
 	cursor: pointer;
 	padding: 5px 15px;
-	background:#fbb023;
+	background:#8a307f;
 	color:white;
 	border-radius: 25px;
 	border: 0;
 	font-size: 17px;
+    border: 2px solid white;
 }
 #leaveRoomBtn{
 	cursor: pointer;
 	padding: 5px 15px;
-	background: #fbb023;
-	box-shadow: 0px 0px 3px #888888;
+	background: #8a307f;
+	border: 2px solid white;
 	color:white;
 	border-radius: 25px;
-	border: 0;
 	font-size: 17px;
 }
 
@@ -52,10 +52,13 @@ a {
 	max-width: 1100px;
 	margin: 30px auto;
 	overflow: hidden;
+    background-color: #6883bc;
+    border-radius: 25px;
+    margin-top:70px
 }
 
 .chat-header {
-	background:#fbb023;
+	background: #8a307f;
 	color: #fff;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
@@ -63,6 +66,7 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+    
 }
 
 .chat-main {
@@ -71,7 +75,7 @@ a {
 }
 
 .chat-sidebar {
-	background: #98a3a55b;
+	background:#6883bc;
 	color: #fff;
 	padding: 20px 20px 60px;
 	overflow-y: scroll;
@@ -84,7 +88,7 @@ a {
 	border-radius: 10px;
   }
   .chat-sidebar::-webkit-scrollbar-track {
-	box-shadow: inset 0 0 5px grey; 
+	background-color: rgb(195, 195, 195); 
   }
 .chat-sidebar h2 {
 	font-size: 15px;
@@ -113,18 +117,20 @@ a {
 	width: 5px;
   }
   .chat-messages::-webkit-scrollbar-thumb {
-	background:#fbb023;
+	background:#8a307f;
 	border-radius: 10px;
   }
   .chat-messages::-webkit-scrollbar-track {
-	box-shadow: inset 0 0 5px grey; 
+	/* box-shadow: inset 0 0 5px white;  */
+    background-color: rgb(195, 195, 195);
   }
 .chat-messages .message {
 	padding: 10px;
 	margin-bottom: 15px;
-	background-color: var(--light-color);
+	background-color: #8a307f;
 	border-radius: 5px;
 	overflow-wrap: break-word;
+    color:white
 }
 
 .chat-messages .message .meta {
@@ -142,7 +148,7 @@ a {
 .chat-form-container {
 	padding: 20px 30px;
 	background-color: var(--dark-color-a);
-	background: #98a3a55b;
+	background: #6883bc;
 }
 
 .chat-form-container form {
@@ -155,6 +161,7 @@ a {
 	height: 40px;
 	flex: 1;
 	border-radius: 25px;
+    border: 2px solid #8a307f;
 }
 .chat-form-container input[type='text']:focus{
 	outline: none;
@@ -171,14 +178,19 @@ a {
 .join-header {
 	text-align: center;
 	padding: 20px;
-	background: #fbb023;
+	background: #8a307f;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
+    border-radius: 25px;
 }
 
 .join-main {
 	padding: 30px 40px;
-	background: #98a3a55b;
+	background: #6883bc;
+    height:300px;
+    width: 500px;
+    border-radius: 25px;
+    margin-top: 10px;
 }
 
 .join-main p {
@@ -192,6 +204,7 @@ a {
 .join-main label {
 	display: block;
 	margin-bottom: 5px;
+    
 }
 
 .join-main input[type='text'] {
@@ -199,6 +212,8 @@ a {
 	padding: 5px;
 	height: 40px;
 	width: 100%;
+    border-radius: 25px;
+    border:none
 }
 .join-main input[type='text']:focus{
     outline: none;
@@ -209,6 +224,7 @@ a {
 	padding: 5px;
 	height: 40px;
 	width: 100%;
+    border-radius: 25px;
 }
 .join-main select:focus{
 	outline:none;
@@ -219,7 +235,7 @@ a {
 	width: 40%;
     margin-left: 30%;
     border-radius: 25px;
-    background-color: #fbb023;
+    background-color: #8a307f;
     color:white
 }
 
@@ -240,16 +256,9 @@ a {
 }
 
 /* icons design */
-
-#affiliatetheme{
-  color:#d0581c
-}
-#affiliatetheme2{
-	color:#d0581c
-}
 #comments{
-  color:#d0581c
+  color:#8a307f
 }
 #fa-users{
-	color:#d0581c
+	color:#8a307f
 }
