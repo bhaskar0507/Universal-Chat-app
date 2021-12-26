@@ -1,0 +1,19 @@
+{
+  "name": "instamin-final",
+  "version": "1.0.0",
+  "description": "Universal Chat room App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhaskar0507/Universal-Chat-app.git"
+  },
+  "author": "Bhaskar Rai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhaskar0507/Universal-Chat-app/issues"
+  },
+  "homepage": "https://github.com/bhaskar0507/Universal-Chat-app#readme"
+}
