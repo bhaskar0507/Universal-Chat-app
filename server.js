@@ -35,11 +35,11 @@ io.on("connection", (socket) => {
         formatMessage(adminName, `${user.username} has joined the chat`)
       );
 
-      //send users and room info
-      io.to(user.room).emit("roomUsers", {
-          room:user.room,
-          users: getRoomUser(user.room)
-      });
+    //send users and room info
+    io.to(user.room).emit("roomUsers", {
+      room: user.room,
+      users: getRoomUser(user.room),
+    });
   });
 
   //listen  for chatmessages
@@ -60,9 +60,9 @@ io.on("connection", (socket) => {
 
       //send users and room info
       io.to(user.room).emit("roomUsers", {
-        room:user.room,
-        users: getRoomUser(user.room)
-    });
+        room: user.room,
+        users: getRoomUser(user.room),
+      });
     }
   });
 });
